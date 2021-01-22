@@ -1,0 +1,34 @@
+<mat-toolbar color="primary" class="navbar">
+  <div>CatanApp</div>
+  <div >
+    <span>Home</span>
+    <span>About</span>
+    <span >
+      <button mat-raised-button type="submit" (click)="loginClick()" >Login</button>
+    </span>
+  </div>
+</mat-toolbar>
+
+<div class="background_images">
+  <div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="35">
+      <mat-toolbar style="background-color:Orange">Register</mat-toolbar>
+      <form fxLayoutAlign="stretch" fxLayout="column" class="register-form">
+        <mat-form-field>
+          <input matInput placeholder="Username">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput type="password" placeholder="Password">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput type="email" placeholder="Mail">
+        </mat-form-field>
+        <button mat-raised-button type="submit" class="submit-button">Submit</button>
+      </form>
+
+    </mat-card>
+  </div>
+</div>
+

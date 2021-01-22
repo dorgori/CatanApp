@@ -1,0 +1,22 @@
+.main-div mat-card{
+  padding: 0px;
+  margin-left: 1400px;
+}
+
+.login-form{
+  padding: 20px;
+  background-color:transparent;
+  width:300px;
+}
+
+.submit-button{
+  background-color: goldenrod;
+}
+
+.navbar{
+  justify-content: space-between;
+}
+
+span{
+  padding-right: 1rem;
+}

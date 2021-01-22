@@ -1,0 +1,9 @@
+
+.background_images {
+  width: 60%;
+  height: 100vh;
+  background: url('./assets/home_background_2.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  float:left;
+}
