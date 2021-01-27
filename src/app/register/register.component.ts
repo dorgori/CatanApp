@@ -16,4 +16,8 @@ export class RegisterComponent implements OnInit {
   loginClick() :void{
     this.router.navigate(['']);
   }
+
+  onSubmit() : void{
+    console.log("Submit pressed");
+  }
 }
